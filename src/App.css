@@ -1,0 +1,74 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* from here */
+
+.button {
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  background-color: gray;
+  cursor: pointer;
+  color: #fff;
+}
+
+.btncont {
+  display: flex;
+  flex-direction: row;
+}
+
+.count-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  width: 200px;
+}
+
+.card-container {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.line-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hline {
+  border-bottom: 1px solid #ccc;
+  width: 30px;
+}
+
+.vline {
+  border-left: 1px solid #ccc;
+  height: calc(100% + 20px);
+}
+
+.lastitem {
+  align-self: flex-start;
+  border-left: 1px solid #ccc;
+  height: 50%;
+}
+
+.firstitem {
+  align-self: flex-start;
+  border-left: 1px solid #ccc;
+  height: calc(50% + 10px);
+  position: relative;
+  top: -10px;
+}
